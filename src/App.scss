@@ -1,0 +1,41 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(220, 224, 237);
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+
+  .cardTitle {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .cardDescription {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .cardButton {
+    margin-top: auto;
+    width: fit-content;
+    background-color: rgb(11, 11, 106);
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
